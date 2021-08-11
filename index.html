@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>SIMON!</h1>
+        </header>
+        <section class="scorePanel">
+            <div class="scoreContainer">
+                <div class="power">
+                    <button class="power-btn" >ON</button>
+                </div>
+            </div>
+            <div class="reset">
+                <button class="start-btn">Play<i class="btn-repeat"></i></button>
+            </div>
+     
+        </section>
+        <section class="quarterCircles">
+            <div>
+                <div class="quarter topLeftGreen"></div>
+                <div class="quarter bottomLeftRed"></div>
+
+            </div>
+            <div>
+                <div class="quarter topRightYellow"></div>
+                <div class="quarter bottomRightBlue"></div>
+            </div>
+            <div class="gameCenter">
+                <div class="levelNumber">
+                    <br>
+                    <span class="level">0</span>
+                    <br>
+                </div>
+            </div>
+            <div class="audio">
+               <audio src="./sounds/one1.mp3" id="one"></audio> 
+               <audio src="./sounds/two2.mp3" id="two"></audio>
+               <audio src="./sounds/three3.mp3" id="three"></audio>
+               <audio src="./sounds/four4.mp3" id="four"></audio>
+               <audio src="./sounds/fail.mp3" id="fail"></audio>
+            </div>
+    
+        </section>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

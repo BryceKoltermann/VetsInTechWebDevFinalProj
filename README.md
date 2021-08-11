@@ -1,2 +1,3 @@
 # VetsInTechWebDevFinalProj
 Simon game for Final Web Dev final project
+Final project for the ViT web development front end course (basic level). Utilizing HTML, CSS and JS. The end result is a Simon game that creates a 15 string array and then uses setInterval and setTimeout to control the timing. I manipulate the CSS style from JS using the DOM which allows the 4 tiles to "flash" when either the computer or player activates the color. The game only runs in struct mode, ie if you do not recreate the pattern exact the game will start over. An event listener is applied to each of the 4 color quadrants during the players turn which allows them click the correct color and build an array to evaluate against the computers array for accuracy.
